@@ -86,7 +86,7 @@ console.log(c)
 let sid=[1,2,3,"apple","Orange"]
 console.log(sid[3])
 console.log(sid[4])
-console.log("Siddharth")
+
 
 
 
