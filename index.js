@@ -81,12 +81,26 @@ let c=a+b
 console.log(c+=4)
 console.log(c)
 
-*/
+
 
 let sid=[1,2,3,"apple","Orange"]
 console.log(sid[3])
 console.log(sid[4])
 
 
+array=[1,2,3,4,5,6,7,8]
+for (let index = 0; index < array.length; index++) {
+    var element = array[index];
+    console.log(element)
+    
+}
+
+console.log("Outside of for block "+ element)
+*/
+
+let siddharth=prompt("Enter the numbner")
+let result=100*siddharth
+console.log(result)
+alert("Her is your reward "+ result)
 
 
