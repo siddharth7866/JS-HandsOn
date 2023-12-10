@@ -78,8 +78,26 @@ let a =10;
 let b=20;
 console.log("10 + 20 = ",a+b)
 let c=a+b
-console.log(c+=4)
+console.log(c=+ 4)
 console.log(c)
+
+let check=5=="5"
+ console.log("5==5 is ",check)
+
+var vishen=document.getElementById("sid")
+console.log(vishen)
+
+function vishensid(){
+    alert("someone touched Me")
+}
+
+vishen.addEventListener("mousemove",vishensid)
+
+var itm
+itm=10
+console.log(itm)
+
+
 
 
 
