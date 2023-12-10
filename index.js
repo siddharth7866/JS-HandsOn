@@ -100,7 +100,7 @@ console.log(itm)
 
 
 
-*/
+
 let siddharth="Vishen"
 let i=0
 for(let val of "vishen"){
@@ -108,4 +108,40 @@ for(let val of "vishen"){
     i++
 }
 
-console.log("size of i=",i)
+console.log("size of i =",i)
+
+const vishen={
+    Name:"Siddharth",
+    Age:29,
+    job:"Developer",
+}
+
+for(let key in vishen){
+    console.log("Key =",key , "||", "Value=",vishen[key])
+}
+
+for (let index = 1; index < 101; index++) {
+    if (index%2===0) {
+        console.log(index)
+    }
+    
+}
+
+*/
+let number=5
+let usernum=Number(prompt("enter the number"))
+while (number!==usernum) {
+    if (number<usernum) {
+        usernum=Number(prompt("enter low number"))
+    }else{
+        usernum=Number(prompt("enter high number"))
+    }
+}
+alert("congrats")
+console.log("Congrats")
+
+// let number=5
+// let usernum=prompt("enter the number")
+// do {
+    
+// } while (usernum!==number);
