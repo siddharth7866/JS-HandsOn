@@ -78,7 +78,7 @@ let a =10;
 let b=20;
 console.log("10 + 20 = ",a+b)
 let c=a+b
-console.log(c+=4)
+console.log(c=+ 4)
 console.log(c)
 
 
@@ -96,17 +96,11 @@ for (let index = 0; index < array.length; index++) {
 }
 
 console.log("Outside of for block "+ element)
-
+*/
 
 let siddharth=prompt("Enter the numbner")
 let result=100*siddharth
 console.log(result)
 alert("Her is your reward "+ result)
-*/
-for(let sid=0;sid<2;sid=sid+1){
-    for(let vis=0;vis<7;vis++){
-        let result=sid+vis
-        console.log(`The addition of ${sid} & ${vis}=${result}`)
-        
-    }
-}
+
+
