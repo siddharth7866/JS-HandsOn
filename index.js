@@ -107,7 +107,8 @@ function sid(params) {
     for(let sid=0;sid<10;sid++){
         for(let vis=1;vis<10;vis++){
             let result=sid+vis
-            console.log(`The sum of ${sid} and ${vis}=${result}`)
+            var styles = "font-size: 40px; border-radius: 10px; border: 1px solid blue; background: pink; color: purple";
+            console.log("%c"+`The sum of ${sid} and ${vis}=${result},${styles}`)
         }
         
     }
@@ -115,3 +116,10 @@ function sid(params) {
 
 let  result=5==="5"?sid():"Not true"
 console.log(result)
+
+var cubes = 'ABCDEFG';
+//styling console output using CSS with a %c format specifier
+for (var i = 0; i < 7; i++) {
+    var styles = "font-size: 40px; border-radius: 10px; border: 1px solid blue; background: pink; color: purple";
+    console.log("%c" + cubes[i], styles)
+}
