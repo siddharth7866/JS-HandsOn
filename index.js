@@ -127,3 +127,8 @@ for (var i = 0; i < 7; i++) {
 // shortcircuitting in javascript
 console.log(true && "Siddharth")
 console.log("true" || "Vishen")
+
+function sidadd(a=2,b=3) {
+    return a+b
+}
+

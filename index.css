@@ -1,4 +1,8 @@
+*{
+    color: blue;
+    background-color: bisque;
+}
 #sid{
-    color: rgb(224, 224, 9);
+    color: rgb(224, 9, 27);
     text-align: center;
 }
