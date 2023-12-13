@@ -103,11 +103,15 @@ let result=100*siddharth
 console.log(result)
 */
 
-for(let sid=0;sid<10;sid++){
-    for(let vis=1;vis<10;vis++){
-        let result=sid+vis
-        console.log(`The sum of ${sid} and ${vis}=${result}`)
+function sid(params) {
+    for(let sid=0;sid<10;sid++){
+        for(let vis=1;vis<10;vis++){
+            let result=sid+vis
+            console.log(`The sum of ${sid} and ${vis}=${result}`)
+        }
+        
     }
-    
 }
 
+let  result=5==="5"?sid():"Not true"
+console.log(result)
