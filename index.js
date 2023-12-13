@@ -124,5 +124,6 @@ for (var i = 0; i < 7; i++) {
     console.log("%c" + cubes[i], styles)
 }
 */
+// shortcircuitting in javascript
 console.log(true && "Siddharth")
-console.log(false  && true)
+console.log("true" || "VIshen")
