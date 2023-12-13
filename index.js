@@ -101,7 +101,7 @@ console.log("Outside of for block "+ element)
 let siddharth=prompt("Enter the numbner")
 let result=100*siddharth
 console.log(result)
-*/
+
 
 function sid(params) {
     for(let sid=0;sid<10;sid++){
@@ -123,3 +123,6 @@ for (var i = 0; i < 7; i++) {
     var styles = "font-size: 40px; border-radius: 10px; border: 1px solid blue; background: pink; color: purple";
     console.log("%c" + cubes[i], styles)
 }
+*/
+console.log(true && "Siddharth")
+console.log(false  && true)
