@@ -96,11 +96,18 @@ for (let index = 0; index < array.length; index++) {
 }
 
 console.log("Outside of for block "+ element)
-*/
+
 
 let siddharth=prompt("Enter the numbner")
 let result=100*siddharth
 console.log(result)
-alert("Her is your reward "+ result)
+*/
 
+for(let sid=0;sid<10;sid++){
+    for(let vis=1;vis<10;vis++){
+        let result=sid+vis
+        console.log(`The sum of ${sid} and ${vis}=${result}`)
+    }
+    
+}
 
