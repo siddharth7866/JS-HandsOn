@@ -129,15 +129,15 @@ for (let index = 1; index < 101; index++) {
 
 */
 let number=5
-let usernum=Number(prompt("enter the number"))
-while (number!==usernum) {
-    if (number<usernum) {
-        usernum=Number(prompt("enter low number"))
-    }else{
-        usernum=Number(prompt("enter high number"))
-    }
-}
-alert("congrats")
+// let usernum=Number(prompt("enter the number"))
+// while (number!==usernum) {
+//     if (number<usernum) {
+//         usernum=Number(prompt("enter low number"))
+//     }else{
+//         usernum=Number(prompt("enter high number"))
+//     }
+// }
+// alert("congrats")
 console.log("Congrats")
 
 // let number=5
@@ -145,3 +145,8 @@ console.log("Congrats")
 // do {
     
 // } while (usernum!==number);
+
+// Always make sure that special character are not counted in str length command
+
+let Name="Siddharth\nVishen"
+console.log(Name.length)
