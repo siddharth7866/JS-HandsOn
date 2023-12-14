@@ -1,3 +1,17 @@
+var sid=document.getElementById("vis")
+var vishen=document.getElementById("vishen")
+console.log(sid)
+function sidadd() {
+    alert("I am touched")
+}
+sid.addEventListener("click",sidadd)
+vishen.addEventListener("click",vishens)
+function vishens() {
+    alert("Please connect with siddharth for React")
+}
+
+
+
 // This repo is all about Javascript handson and Skill Development
 
 // let sid=6
@@ -123,12 +137,12 @@ for (var i = 0; i < 7; i++) {
     var styles = "font-size: 40px; border-radius: 10px; border: 1px solid blue; background: pink; color: purple";
     console.log("%c" + cubes[i], styles)
 }
-*/
+
 // shortcircuitting in javascript
 console.log(true && "Siddharth")
 console.log("true" || "Vishen")
+*/
 
-function sidadd(a=2,b=3) {
-    return a+b
-}
+
+
 
