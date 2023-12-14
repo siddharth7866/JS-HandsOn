@@ -95,20 +95,53 @@ let c=a+b
 console.log(c=+ 4)
 console.log(c)
 
+let check=5=="5"
+ console.log("5==5 is ",check)
+
+var vishen=document.getElementById("sid")
+console.log(vishen)
+
+function vishensid(){
+    alert("someone touched Me")
+}
+
+vishen.addEventListener("mousemove",vishensid)
+
+var itm
+itm=10
+console.log(itm)
 
 
-let sid=[1,2,3,"apple","Orange"]
-console.log(sid[3])
-console.log(sid[4])
 
 
-array=[1,2,3,4,5,6,7,8]
-for (let index = 0; index < array.length; index++) {
-    var element = array[index];
-    console.log(element)
+
+let siddharth="Vishen"
+let i=0
+for(let val of "vishen"){
+    console.log("i =",val)
+    i++
+}
+
+console.log("size of i =",i)
+
+const vishen={
+    Name:"Siddharth",
+    Age:29,
+    job:"Developer",
+}
+
+for(let key in vishen){
+    console.log("Key =",key , "||", "Value=",vishen[key])
+}
+
+for (let index = 1; index < 101; index++) {
+    if (index%2===0) {
+        console.log(index)
+    }
     
 }
 
+<<<<<<< HEAD
 console.log("Outside of for block "+ element)
 
 
@@ -145,4 +178,28 @@ console.log("true" || "Vishen")
 
 
 
+=======
+*/
+let number=5
+// let usernum=Number(prompt("enter the number"))
+// while (number!==usernum) {
+//     if (number<usernum) {
+//         usernum=Number(prompt("enter low number"))
+//     }else{
+//         usernum=Number(prompt("enter high number"))
+//     }
+// }
+// alert("congrats")
+console.log("Congrats")
 
+// let number=5
+// let usernum=prompt("enter the number")
+// do {
+    
+// } while (usernum!==number);
+>>>>>>> 0a8257c3a5af4530956c95a5756de0a042536b78
+
+// Always make sure that special character are not counted in str length command
+
+let Name="Siddharth\nVishen"
+console.log(Name.length)
