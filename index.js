@@ -127,7 +127,7 @@ for (let index = 1; index < 101; index++) {
     
 }
 
-
+*/
 let number=5
 let usernum=Number(prompt("enter the number"))
 while (number!==usernum) {
@@ -145,16 +145,3 @@ console.log("Congrats")
 // do {
     
 // } while (usernum!==number);
-*/
-
-var sid={
-    FullName:"Siddharth",
-    job:"Developer",
-    Education:"B.Tech"
-}
-
-let sidd="siddharth"
-
-for(let key in sid){
-    console.log(key)
-}
