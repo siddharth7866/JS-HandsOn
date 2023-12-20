@@ -154,7 +154,7 @@ function sid(params) {
     for(let sid=0;sid<10;sid++){
         for(let vis=1;vis<10;vis++){
             let result=sid+vis
-            var styles = "font-size: 40px; border-radius: 10px; border: 1px solid blue; background: pink; color: purple";
+            var styles = "font-sieeze: 40px; border-radius: 10px; border: 1px solid blue; background: pink; color: purple";
             console.log("%c"+`The sum of ${sid} and ${vis}=${result},${styles}`)
         }
         
@@ -203,3 +203,14 @@ console.log("Congrats")
 
 let Name="Siddharth\nVishen"
 console.log(Name.length)
+
+
+function vowelcount(a) {
+    for (let index = 0; index < a.length; index++) {
+        console.log(index[a])
+        
+    }
+}
+
+
+vowelcount("siddharth")
