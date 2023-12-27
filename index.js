@@ -12,6 +12,8 @@ function vishens() {
 
 
 
+/*
+
 // This repo is all about Javascript handson and Skill Development
 
 // let sid=6
@@ -174,12 +176,12 @@ for (var i = 0; i < 7; i++) {
 // shortcircuitting in javascript
 console.log(true && "Siddharth")
 console.log("true" || "Vishen")
-*/
+
 
 
 
 =======
-*/
+
 let number=5
 // let usernum=Number(prompt("enter the number"))
 // while (number!==usernum) {
@@ -203,3 +205,5 @@ console.log("Congrats")
 
 let Name="Siddharth\nVishen"
 console.log(Name.length)
+
+*/
