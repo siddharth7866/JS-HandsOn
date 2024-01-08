@@ -28,23 +28,3 @@
 // var letters='abc'
 // console.log(letters.match(/s/))
 
-// var sid="Siddharth"
-// console.log("Sidharth")
-
-// var result=true
-// console.log(result)
-// console.log(typeof(result))
-// let a ="Outside"
-// function sids() {
-//      a="inside"
-//     console.log(`${a}`)
-// }
-// sids()
-// console.log(a)
-
-const score=400
-console.log(score)
-const balance=new Number(100)
-console.log(balance)
-console.log(balance.toString().length)
-console.log(balance.toFixed(1))
