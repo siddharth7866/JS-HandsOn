@@ -28,4 +28,15 @@
 // var letters='abc'
 // console.log(letters.match(/s/))
 
-console.log("Local personal system")
+// console.log("Local personal system")
+
+// console.log(typeof(null))
+// console.log(typeof(undefined))
+let score="33"
+let numberScore=Number(score)
+console.log(numberScore)
+console.log(typeof numberScore)
+console.log(typeof(numberScore))
+console.log("1"+(2+2))
+console.table(["siddharth","Vishen"])
+console.log(typeof(score))
