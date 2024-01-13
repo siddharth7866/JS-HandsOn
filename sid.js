@@ -29,3 +29,16 @@
 // console.log(letters.match(/s/))
 
 console.log("Local personal system")
+
+let incr=document.getElementById("xx")
+let counter=document.getElementById("cc")
+console.log(counter)
+console.log(incr)
+
+function vishen() {
+    console.log("Siddharth Vishen")
+    // counter+=1
+    document.document.getElementById("cc").innerHTML=counter
+
+}
+incr.addEventListener("click",vishen)
