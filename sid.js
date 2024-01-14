@@ -114,7 +114,32 @@ const arr2=[1,2,3,4,[1,3,22,11],5,6,7,8,9,[11,22,33,44,99],90,12]
 const newarr2=arr2.flat(Infinity)
 console.log(newarr2)
 
-console.log(object.keys(sid))
+console.log(Object.values(sid))
 // Important topic in Array from,isarray,flat object conversion in array of keys or values
+console.log(Object.keys(sid))
+console.log(Object.values(sid))
+console.log(sid['age'])
+
+const sidsym=Symbol("myke1")
+
+const visid={
+    name:"Siddharth",
+    age:30,
+    techstack:"MERN",
+    [sidsym]:"mykey1"
+}
+
+console.log(visid[sidsym])
+// Object.freeze(visid)
+// visid.name="Vishen"
+console.log(visid)
 
 
+//one of the most asked topics in the interview is symbol data type
+
+visid.greeting=function() {
+    console.log(`hi user ${this.name}`)
+}
+
+visid.greeting()
+//singleton object in javascript
