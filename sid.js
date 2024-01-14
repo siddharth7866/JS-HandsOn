@@ -114,4 +114,7 @@ const arr2=[1,2,3,4,[1,3,22,11],5,6,7,8,9,[11,22,33,44,99],90,12]
 const newarr2=arr2.flat(Infinity)
 console.log(newarr2)
 
-console.log(Array.from(sid))
+console.log(Array.from("Siddharth"))
+// Important topic in Array from,isarray,flat object conversion in array of keys or values
+
+
