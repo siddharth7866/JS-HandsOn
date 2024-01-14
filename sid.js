@@ -28,17 +28,48 @@
 // var letters='abc'
 // console.log(letters.match(/s/))
 
-console.log("Local personal system")
+// console.log("Local personal system")
 
-let incr=document.getElementById("xx")
-let counter=document.getElementById("cc")
-console.log(counter)
-console.log(incr)
+// let incr=document.getElementById("xx")
+// let counter=document.getElementById("cc")
+// console.log(counter)
+// console.log(incr)
 
-function vishen() {
-    console.log("Siddharth Vishen")
-    // counter+=1
-    document.document.getElementById("cc").innerHTML=counter
+// function vishen() {
+//     console.log("Siddharth Vishen")
+//     // counter+=1
+//     document.document.getElementById("cc").innerHTML=counter
 
+// }
+// incr.addEventListener("click",vishen)
+
+
+function SiddAdd(a,b) {
+    if (typeof(a)===typeof(8) && typeof(b)===typeof(7)) {
+        console.log(a+b)
+    } else {
+        console.log("Arguments are not Number data type")
+    }
 }
-incr.addEventListener("click",vishen)
+
+
+SiddAdd(3,4)
+
+if (typeof(3)==typeof(4)) {
+    console.log("true condition")
+} else {
+    console.log("False")
+}
+
+
+function logged(a) {
+    return `${a} logged in`
+}
+
+let gp=logged("sid")
+console.log(gp)
+function calculateamount(val1,val2,...num1) {
+    return num1
+}
+
+console.log(calculateamount(200,300,21,456,299,123,234))
