@@ -143,3 +143,14 @@ visid.greeting=function() {
 
 visid.greeting()
 //singleton object in javascript
+
+const clg={z:'3',x:'6'}
+const school={a:'1',b:'2'}
+console.log(Object.assign(clg,school))
+console.log(clg)
+const vishen={...clg,...school}
+console.log(vishen)
+const xx=[1,2,3,4,5,6]
+const qq=['dog','cat','cammel']
+
+console.log([...xx,...qq])
