@@ -73,3 +73,33 @@ function calculateamount(val1,val2,...num1) {
 }
 
 console.log(calculateamount(200,300,21,456,299,123,234))
+
+let sid={
+    age:30,
+    location:"GKP",
+    interest:"Computer Science"
+}
+
+console.log(sid.age)
+console.log(sid["pet"]="Dog")
+console.log(sid)
+
+const sidarr=[200,300,212,453,7,543,457,211]
+
+function returnlast(getarray) {
+    let leng=getarray.length
+    console.log(getarray[leng-1])
+}
+
+returnlast(sidarr)
+
+sidarr.push("Sidd")
+console.log(sidarr)
+console.log(sidarr.includes(200)
+)
+const newarjoin=sidarr.join()
+console.log(newarjoin)
+//Differnce between splice and slice-------interview question
+//slice does not change original array whereas splice changes original array
+
+
