@@ -84,22 +84,34 @@ console.log(sid.age)
 console.log(sid["pet"]="Dog")
 console.log(sid)
 
-const sidarr=[200,300,212,453,7,543,457,211]
 
-function returnlast(getarray) {
-    let leng=getarray.length
-    console.log(getarray[leng-1])
-}
 
-returnlast(sidarr)
+// function returnlast(getarray) {
+//     let leng=getarray.length
+//     console.log(getarray[leng-1])
+// }
 
-sidarr.push("Sidd")
-console.log(sidarr)
-console.log(sidarr.includes(200)
-)
-const newarjoin=sidarr.join()
-console.log(newarjoin)
+// returnlast(sidarr)
+
+// sidarr.push("Sidd")
+// console.log(sidarr)
+// console.log(sidarr.includes(200)
+// )
+// const newarjoin=sidarr.join()
+// console.log(newarjoin)
 //Differnce between splice and slice-------interview question
 //slice does not change original array whereas splice changes original array
+const sidarr=[200,300,212,453,7,543,457,211]
+const visarr=["abc","cbv","xyz"]
+sidarr.shift(3)
+sidarr.shift(3)
+console.log(sidarr)
+let xz=sidarr.concat(visarr)
+console.log(xz)
+sidarr.push(visarr)
+console.log(sidarr)
+const arr2=[1,2,3,4,[1,3,22,11],5,6,7,8,9,[11,22,33,44,99],90,12]
+const newarr2=arr2.flat(Infinity)
+console.log(newarr2)
 
-
+console.log(Array.from(sid))
