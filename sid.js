@@ -154,3 +154,12 @@ const xx=[1,2,3,4,5,6]
 const qq=['dog','cat','cammel']
 
 console.log([...xx,...qq])
+//Object destructuring
+const {age}=visid
+console.log(age)
+
+console.log(addxx(4))
+function addxx(num) {
+    return num+1
+}
+
