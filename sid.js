@@ -172,35 +172,111 @@
 // //use of continue and break statement in the loop 
 // const 
 
-const sid={name:"sid",age:23,name:"siddd"}
-console.log(sid)
-const sidmap=new Map()
-sidmap.set('sid',"names")
-sidmap.set('gopi',"names")
-console.log(sidmap)
-const clg={z:'3',x:'6'}
-for (const [key] of sidmap) {
-    console.log(key)
-}
+// const sid={name:"sid",age:23,name:"siddd"}
+// console.log(sid)
+// const sidmap=new Map()
+// sidmap.set('sid',"names")
+// sidmap.set('gopi',"names")
+// console.log(sidmap)
+// const clg={z:'3',x:'6'}
+// for (const [key] of sidmap) {
+//     console.log(key)
+// }
 
-const {age}=sid
-console.log(age)
+// const {age}=sid
+// console.log(age)
 
 
-for (const key in sid) {
-    console.log(`${key} `)
+// for (const key in sid) {
+//     console.log(`${key} `)
         
-    }
+//     }
 
-const zzz=["a","b","e","4","1","8","22"]
-for (const key in zzz) {
-    console.log(key)
+// const zzz=["a","b","e","4","1","8","22"]
+// for (const key in zzz) {
+//     console.log(key)
         
-    }
+//     }
 
-for (const key in sidmap) {
+// for (const key in sidmap) {
    
-        console.log(key) 
+//         console.log(key) 
+//     }
+
+
+// //In higher order function we have to check that what are the paremeters they are having,this will demonstrate your true capability
+
+// const xzx=["we","aw","qa","dc"]
+
+// xzx.forEach((item)=> {
+//     console.log(item+'a')
+// })
+
+// const asd=xzx.map((x)=>x+2)
+// console.log(asd)
+
+// const qaq=["a",'qw','we','ds','kj','lk']
+// qaq.forEach(function (item) {
+//    console.log(`${item} is good`)
+// })
+// console.log(qaq)
+const xzx=["we","aw","qa","dc"]
+xzx.forEach((item,sid,vis)=>(console.log(item,sid,vis)))
+console.log(xzx)
+console.log(xzx.map((item)=>item+3))
+
+const vc=[49,23,43,12,56,78,34,98,100]
+
+// for (let i = 0; i < vc.length; i++) {
+//     const element = vc[i];
+//         if (element>50) {
+//             return false;
+//         }
+//     console.log(element)
+    
+// }
+
+
+// function isPrime(num) {
+//   for (let i = 2; num > i; i++) {
+//     if (num % i === 0) {
+//     //   return false;
+//     }
+//   }
+//   return num > 1;
+// }
+
+// console.log(array.filter(isPrime))
+
+const array = [-3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+array.forEach(function (num) {
+    if (num>5) {
+        console.log(num)
     }
+})
+
+const sidz=array.filter((x)=>x>5)
+console.log(sidz)
+const books=[
+    {tittle:"premchand",gener:"science",price:230},
+    {tittle:"premprabhu",gener:"Maths",price:40},
+    {tittle:"pppzx",gener:"geography",price:900},
+    {tittle:"psswx",gener:"history",price:110},
+    {tittle:"preczz",gener:"history",price:203},
+    {tittle:"shakespear",gener:"biology",price:123},
+];
+
+const price=books.filter((x)=>x.price>100);
+const history=books.filter((x)=>x.gener==="geography")
+console.log(history)
+
+console.log(price)
+
+const marks=[15,18,17,16,13,18,14]
+
+const passed=marks.map((x)=>x+5).filter((x)=>x>=20)
+console.log(passed)
+const totalprice=books.reduce((acc,item)=>acc+item.price,-1000)
+console.log(totalprice)
 
 
