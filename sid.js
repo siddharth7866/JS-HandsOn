@@ -219,13 +219,13 @@
 // qaq.forEach(function (item) {
 //    console.log(`${item} is good`)
 // })
-// console.log(qaq)
-const xzx=["we","aw","qa","dc"]
-xzx.forEach((item,sid,vis)=>(console.log(item,sid,vis)))
-console.log(xzx)
-console.log(xzx.map((item)=>item+3))
+// // console.log(qaq)
+// const xzx=["we","aw","qa","dc"]
+// xzx.forEach((item,sid,vis)=>(console.log(item,sid,vis)))
+// console.log(xzx)
+// console.log(xzx.map((item)=>item+3))
 
-const vc=[49,23,43,12,56,78,34,98,100]
+// const vc=[49,23,43,12,56,78,34,98,100]
 
 // for (let i = 0; i < vc.length; i++) {
 //     const element = vc[i];
@@ -248,35 +248,84 @@ const vc=[49,23,43,12,56,78,34,98,100]
 
 // console.log(array.filter(isPrime))
 
-const array = [-3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
-array.forEach(function (num) {
-    if (num>5) {
-        console.log(num)
-    }
+// const array = [-3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+// array.forEach(function (num) {
+//     if (num>5) {
+//         console.log(num)
+//     }
+// })
+
+// const sidz=array.filter((x)=>x>5)
+// console.log(sidz)
+// const books=[
+//     {tittle:"premchand",gener:"science",price:230},
+//     {tittle:"premprabhu",gener:"Maths",price:40},
+//     {tittle:"pppzx",gener:"geography",price:900},
+//     {tittle:"psswx",gener:"history",price:110},
+//     {tittle:"preczz",gener:"history",price:203},
+//     {tittle:"shakespear",gener:"biology",price:123},
+// ];
+
+// const price=books.filter((x)=>x.price>100);
+// const history=books.filter((x)=>x.gener==="geography")
+// console.log(history)
+
+// console.log(price)
+
+// const marks=[15,18,17,16,13,18,14]
+
+// const passed=marks.map((x)=>x+5).filter((x)=>x>=20)
+// console.log(passed)
+// const totalprice=books.reduce((acc,item)=>acc+item.price,-1000)
+// console.log(totalprice)
+
+// const promiseone=new Promise(function(resolve,reject) {
+//     setTimeout(function () {
+//         console.log("Async task is completed")
+//         resolve()
+//     },2000)
+// })
+
+// promiseone.then(function () {
+//     console.log("Promise Consumed")
+// })
+
+// const promisethree=new Promise(function (resolve,reject) {
+//     setTimeout(function () {
+//         resolve({username:"Siddharth",class:"Tech",number:786})
+//     },1000)
+// })
+
+// promisethree.then(function (user) {
+//     console.log(user)
+// })
+
+const promisefour=new Promise(function (resolve,reject) {
+    setTimeout(function () {
+        console.log("I am in async call")
+        let error=true
+        if (error!=true) {
+            resolve({username:"Siddharth",password:123456})
+        }else{
+            reject("Error:Something went wrong")
+        }
+    },1000)
 })
 
-const sidz=array.filter((x)=>x>5)
-console.log(sidz)
-const books=[
-    {tittle:"premchand",gener:"science",price:230},
-    {tittle:"premprabhu",gener:"Maths",price:40},
-    {tittle:"pppzx",gener:"geography",price:900},
-    {tittle:"psswx",gener:"history",price:110},
-    {tittle:"preczz",gener:"history",price:203},
-    {tittle:"shakespear",gener:"biology",price:123},
-];
+async function promisefive() {
+    const sid=await promisefour
+    console.log(sid)
+}
 
-const price=books.filter((x)=>x.price>100);
-const history=books.filter((x)=>x.gener==="geography")
-console.log(history)
+promisefive()
 
-console.log(price)
-
-const marks=[15,18,17,16,13,18,14]
-
-const passed=marks.map((x)=>x+5).filter((x)=>x>=20)
-console.log(passed)
-const totalprice=books.reduce((acc,item)=>acc+item.price,-1000)
-console.log(totalprice)
-
-
+// promisefour.then((user)=>{
+//     console.log(user)
+//     return user.username
+// }).then((username)=>{
+//     console.log(username)
+// }).catch((error)=>{
+//     console.log(error)
+// }).finally(()=>{
+//     console.log("It will print in any case either resolved or reject")
+// })
